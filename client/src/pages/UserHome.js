@@ -7,8 +7,9 @@ import Casoul from '../Component/Casoul'
 import axios from 'axios';
 import Button from "react-bootstrap/esm/Button";
 import myIcon from '../Component/img/myIcon.png'
-const serverUrls='https://bakend-api-qg2w.onrender.com'
+
 import {useNavigate,useLocation} from 'react-router-dom'
+const serverUrls='https://bakend-api-qg2w.onrender.com'
 
 function NavBarHome() {
     const [allBook,setAllBook]=useState([])
