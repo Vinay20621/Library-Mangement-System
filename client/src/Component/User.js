@@ -2,8 +2,9 @@
 import axios from 'axios'
 import Button from "react-bootstrap/esm/Button";
 import {useLocation, useNavigate} from 'react-router-dom'
-const serverUrls='https://bakend-api-qg2w.onrender.com'
+
 import coverImg from './img/userImg.png'
+const serverUrls='https://bakend-api-qg2w.onrender.com'
 function User({id,name,email}) {
   const location=useLocation()
   const navigate=useNavigate()
