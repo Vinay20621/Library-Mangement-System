@@ -8,6 +8,7 @@ import axios from 'axios';
 import Button from "react-bootstrap/esm/Button";
 import myIcon from '../Component/img/myIcon.png'
 
+import Footer from '../Component/Footer'
 import {useNavigate,useLocation} from 'react-router-dom'
 const serverUrls='https://bakend-api-qg2w.onrender.com'
 
@@ -144,7 +145,7 @@ function NavBarHome() {
      </div>
      </div>
 
-      
+     <Footer/> 
   </>
   );
 }
