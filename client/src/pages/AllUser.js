@@ -57,7 +57,7 @@ function AllUser({active})
             allUser.map((user)=>
             {
                 return(
-                <div classNameName="col-lg-4 col-md-6 col-sm-12" key={user._id}>
+                <div className="col-lg-4 col-md-6 col-sm-12" key={user._id}>
                   
                 <User key={user.id}
                 id={user._id}
