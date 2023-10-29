@@ -5,9 +5,10 @@ import axios from 'axios'
 
 import Button from "react-bootstrap/esm/Button";
 
-const serverUrls='https://bakend-api-qg2w.onrender.com'
+
 import coverImg from '../Component/img/userImg.png'
 import {useLocation, useNavigate} from 'react-router-dom'
+const serverUrls='https://bakend-api-qg2w.onrender.com'
 function AllRequest({active})
 {
   const [allRequest,setRequest]=useState([])
